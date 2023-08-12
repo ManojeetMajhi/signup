@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Signup page</title>
+    <style>
+ body {
+      background-color: #000000d1;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    
+    .container {
+      width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 5px;
+      margin-top: 100px;
+    }
+    
+    h1 {
+        color: black;
+      text-align: center;
+    }
+    
+    input,label{
+        color: black;
+    }
+    .group {
+      margin-bottom: 20px;
+    }
+    
+    .group label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    .group input {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid black;
+      border-radius: 3px;
+    }
+    
+    .group select {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid black;
+      border-radius: 3px;
+    }
+    
+    button {
+      background-color: black;
+      color: white;
+      cursor: pointer;
+      width: 350px;
+      height: 25px;
+      margin-left: 30px;
+    }
+    
+    button:hover {
+      background-color: white;
+      color: black;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Signup</h1>
+        <form>
+            <div class="group">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="required">
+            </div>
+            <div class="group">
+                <label for="batch">Batch:</label>
+                <select name="batch" id="batch">
+                    <option value="sigma1">sigma 1.0</option>
+                    <option value="sigma2">sigma 2.0</option>
+                </select>
+            </div>
+            <div class="group">
+                <label for="Age">Age:</label>
+                <input type="numbere" name="" id="Age">
+            </div>
+            <div class="group">
+                <label for="email">Email:</label>
+                <input type="email" name="Email" id="email">
+            </div>
+            <div class="group">
+                <label for="password">Password:</label>
+                <input type="password" name="" id="Password">
+            </div>
+            <button>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                submit
+            </button>
+        </form>
+    </div>
+</body>
+</html>

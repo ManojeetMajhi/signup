@@ -1,12 +1,21 @@
+<style>
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+body {
+ font-family: Arial, sans-serif;
+ background-color: #9093af70;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
 .container{
     width: 400px;
     height: 400px;
-    background-color: #908585;
+    background-color: #efe8e8;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0,0, 0.1);
 }
@@ -68,3 +77,4 @@ transition: background-color 0.2s;
 a:hover{
     background: color #1472c4;;
 }
+</style>
